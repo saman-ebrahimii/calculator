@@ -1,0 +1,50 @@
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    border-width: 0px;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.main-container>div {
+    padding: 50px 30px;
+    background-image: linear-gradient(to bottom, #192570, #4794bc);
+    border-radius: 10px;
+}
+
+.row-container>input {
+    text-align: right;
+    padding: 15px 30px;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.operator {
+    background-color: #ffd166;
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+#equal {
+    background-color: #06d6a0;
+}
+
+input:focus {
+    outline: none;
+}
